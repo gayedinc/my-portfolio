@@ -71,3 +71,34 @@ body.dark-mode {
 .dark-mode .articles-item h3 {
   color: #fff;
 }
+
+.dark-mode .myarticlespage {
+  
+  h3 {
+    color: white;
+  }
+
+  .arrow-icon {
+    border: 1px solid white;
+
+    a {
+      color: white;
+    }
+  }
+  
+  .arrow-icon:hover {
+    background: radial-gradient(50% 50% at 50% 50%, #4c318c 1.97%, #9c6cc4 98.43%);
+  }
+}
+
+.dark-mode .articles-item-page {
+  border: 1.5px solid white;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode .star-icon svg path {
+  fill: white;
+}

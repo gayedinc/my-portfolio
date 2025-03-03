@@ -19,7 +19,6 @@ export function StarSvg() {
       width="71"
       height="71"
       viewBox="0 0 71 71"
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={{ transform: `rotate(${rotation}deg)`, transition: "transform 0.1s linear" }}
     >

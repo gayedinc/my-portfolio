@@ -33,6 +33,7 @@ h1 {
   font-size: 60px;
   line-height: 65px;
   font-family: Outfit;
+  color: black;
 }
 
 .header h1,
@@ -454,24 +455,43 @@ main {
 
 .articles-item {
   position: relative;
+}
 
-  img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    cursor: pointer;
-    border-radius: 8px;
-  }
+.articles-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
 
-  a:hover {
-    background: url("/img/eye.png") center center no-repeat;
-    background-size: 50px 50px;
-    
-    img {
-      opacity: 0.2;
-      filter: brightness(50%);
-    }
-  }
+.articles-item a {
+  display: block;
+  position: relative;
+}
+
+.articles-item a:hover img {
+  opacity: 0.2;
+  filter: brightness(50%);
+}
+
+.articles-item a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: url("/img/eye.png") center center no-repeat;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out;
+}
+
+.articles-item a:hover::after {
+  opacity: 1;
 }
 
 .myarticlespage {
@@ -485,6 +505,7 @@ main {
     line-height: 40px;
     letter-spacing: 0px;
     margin-block: 20px;
+    color: black;
   }
 
   .arrow-icon {
