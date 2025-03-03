@@ -28,6 +28,11 @@ h1, h2, h3 {
   }
 }
 
+.header {
+  position: relative;
+}
+
+
 .header h1,
 .nav-hamburger a {
   transition: color 0.3s ease;
@@ -82,7 +87,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   padding-inline: 24px;
-  border-block:  1.5px solid #141414;
+  border-bottom:  1.5px solid #141414;
   animation: slideInLeft 1s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -122,6 +127,10 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 24px 20px;
+}
+
+body {
+  padding-top: 0;
 }
 
 .menu-header h1 {
@@ -202,6 +211,7 @@ main {
   cursor: pointer;
   user-select: none;
   transition: 0.3s;
+  color: black;
 }
 
 .dropdown-menu {
@@ -216,6 +226,7 @@ main {
   width: 100%;
   box-shadow: 0px 10px 40px -7px #373F6859;
   border: 1px solid #ccc;
+  z-index: 1;
 }
 
 .dropdown-menu.open {
@@ -721,10 +732,24 @@ main {
 
 @media (width >= 768px) {
 
-  .nav-desktop{
-    padding-inline: 39.5px;
+  body {
+    padding-top: 132px;
   }
 
+  .nav-desktop {
+    width: 100%;
+    padding-inline: 39.5px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+    border-bottom: 1.5px solid #141414;
+    background-color: #fff;
+  }
+  
   .hamburger-menu-overlay {
     display: none;
   }
@@ -775,13 +800,6 @@ main {
   .icon {
     width: 100px;
     height: 100px;
-  }
-
-  .nav-desktop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block: 30px;
   }
 
   .nav-adres {
@@ -993,6 +1011,11 @@ main {
 /* Desktop Start */
 
 @media (width >= 1440px) {
+
+  body {
+    padding-top: 100px;
+  }
+
   .nav-desktop {
     padding-inline: 80px;
   }

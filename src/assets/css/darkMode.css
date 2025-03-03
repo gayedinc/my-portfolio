@@ -10,6 +10,24 @@ body.dark-mode {
   color: #fff;
 }
 
+.dark-mode .dropdown {
+  background-color: #1f1e1e;
+  color: #fff;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: #1f1e1e;
+  border: 1px solid #373F6859;
+}
+
+.dark-mode .dropdown-item {
+  color: #fff;
+}
+
+.dark-mode .nav-desktop {
+  background-color: #050505;
+}
+
 .dark-mode .nav-adres a {
   color: #fff;
 }
