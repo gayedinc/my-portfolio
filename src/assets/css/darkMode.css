@@ -6,7 +6,7 @@ body.dark-mode {
   color: #fff;
 }
 
-.headtext {
+.dark-mode .headtext {
   color: #fff;
 }
 
@@ -95,10 +95,19 @@ body.dark-mode {
   border: 1.5px solid white;
 }
 
-.dark-mode h1 {
+.dark-mode .star-icon svg path {
+  fill: white;
+}
+
+.dark-mode .about-container h1,
+.dark-mode .myprojects h1 {
   color: white;
 }
 
-.dark-mode .star-icon svg path {
-  fill: white;
+.dark-mode .myprojects {
+  border-bottom:  1.5px solid white;
+}
+
+.dark-mode .about-container  {
+  border-bottom:  1.5px solid white;
 }

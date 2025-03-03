@@ -8,9 +8,9 @@ export default function Contacts() {
   return (
     <>
       <div className="contact-page">
-        <div className='headtext'>
+        <div className='contact-text'>
           <h1 onClick={() => (window.location.href = "#/contact")}>{t('contact')}</h1>
-          <div className="star-icon">
+          <div className="contact-icon">
             <StarSvg />
           </div>
         </div>

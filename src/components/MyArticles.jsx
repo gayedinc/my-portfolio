@@ -23,9 +23,11 @@ export default function MyArticles() {
       <div className="articles-page">
         {articles.map((article, index) => (
           <div className="articles-item-page" key={index}>
-            <a href={article.link} target="_blank" rel="noopener noreferrer">
-              <img src={article.image} alt={`${article.title} Photo`} />
-            </a>
+            <div className="articles-item-link">
+              <a href={article.link} target="_blank" rel="noopener noreferrer">
+                <img src={article.image} alt={`${article.title} Photo`} />
+              </a>
+            </div>
             <div className="articles-info">
               <h3>{article.title}</h3>
               <div className="arrow-icon">
