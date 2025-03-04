@@ -24,7 +24,7 @@ export default function Contacts() {
             </button>
             <div className="cv">
               <h1>
-                <a href="assets/doc/NihatDuysakCv-Tr.pdf" download>{t('download_cv')}</a>
+                <a href="/doc/Gaye-Dinc-CV.pdf" download>{t('download_cv')}</a>
               </h1>
             </div>
             <div className="profiles">

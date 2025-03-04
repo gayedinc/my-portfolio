@@ -38,7 +38,26 @@ h1, h2, h3 {
   transition: color 0.3s ease;
 }
 
-.header h1, .cv h1 {
+.hamburger-btn, .close-btn {
+  border: none;
+  background: none;
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.header-mobile h1, .cv h1 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 30px;
+  color: #121212;
+}
+
+.menu-header h1 {
   font-family: Satoshi;
   font-weight: 700;
   font-style: italic;
@@ -170,6 +189,10 @@ body {
 
 .hamburger-menu-content.block {
   transform: translateX(0);
+
+  svg {
+    fill: black;
+  }
 }
 
 .hamburger-menu {
@@ -183,6 +206,15 @@ body {
 
 .nav-desktop {
   display: none;
+}
+
+.nav-desktop h1 {
+  font-family: Satoshi;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 30px;
+  color: #121212;
 }
 
 .hamburger-icon-none {
@@ -763,6 +795,10 @@ body {
   }
 
   header h1, .cv h1{
+    font-size: 28px;
+  }
+
+  .nav-desktop h1 {
     font-size: 28px;
   }
 

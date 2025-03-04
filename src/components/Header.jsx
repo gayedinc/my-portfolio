@@ -3,7 +3,7 @@ import { getRoutes } from "../helper";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTheme } from "./ThemeContext"; // tema için olan provider
-import { MoonSvg, SunSvg } from "../Svg";
+import { MoonSvg, SunSvg, HamburgerSvg, CloseSvg } from "../Svg";
 import "../assets/css/darkMode.css";
 
 export default function Header() {
@@ -21,22 +21,17 @@ export default function Header() {
         <h1>Gaye Dinç</h1>
         <LanguageSwitcher />
         <div className="hamburger-menu">
-          <img
-            src="/img/hamburger-menu-icon.svg"
-            alt="Hamburger Menu"
-            onClick={hamburgerMenu}
-            className={isMenuOpen ? "hamburger-icon-none" : ""}
-          />
+          <button className={isMenuOpen ? "hamburger-icon-none" : "hamburger-btn"} onClick={hamburgerMenu}>
+            <HamburgerSvg />
+          </button>
         </div>
       </div>
       <div onClick={hamburgerMenu} className={`hamburger-menu-overlay ${isMenuOpen ? "block" : "none"}`}>
         <div onClick={(e) => e.stopPropagation()} className={`hamburger-menu-content ${isMenuOpen ? "block" : "none"}`}>
           <div className="menu-header">
-            <img
-              src="/img/hamburger-menu-close-icon.svg"
-              alt="Hamburger Menu Close"
-              onClick={hamburgerMenu}
-            />
+            <button className="close-btn" onClick={hamburgerMenu} >
+              <CloseSvg />
+            </button>
             <h1>Gaye Dinç</h1>
           </div>
           <nav className="nav-hamburger">

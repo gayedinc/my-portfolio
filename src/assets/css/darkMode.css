@@ -2,12 +2,20 @@ body.dark-mode {
   background-color: #050505;
 }
 
-.dark-mode .header h1, .cv h1 {
+.dark-mode .header-mobile h1, .cv h1 {
+  color: #fff;
+}
+
+.dark-mode .nav-desktop h1 {
   color: #fff;
 }
 
 .dark-mode .headtext {
   color: #fff;
+}
+
+.dark-mode .hamburger-btn svg {
+  fill: #fff;
 }
 
 .dark-mode .dropdown {
