@@ -94,6 +94,11 @@
   ],
   "articles": [
     {
+      "title": "EventTarget: dispatchEvent() Yöntemi",
+      "image": "/img/eventtarget-photo.png",
+      "link": "https://medium.com/@gayedinc190/eventtarget-dispatchevent-yöntemi-531e0d35b062"
+    },
+    {
       "title": "useContext ile React’te Daha Temiz ve Etkili Durum Yönetimi",
       "image": "/img/usecontext-article.jpg",
       "link": "https://medium.com/@gayedinc190/usecontext-ile-reactte-daha-temiz-ve-etkili-durum-yönetimi-45bbf5cdb1c5"
