@@ -1,11 +1,8 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import toast from "react-hot-toast";
-import { useTranslation } from "react-i18next";
 
 const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-  const { t } = useTranslation(); // Çeviri hooku
 
   function getSystemThemePref() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark-mode' : 'light';
@@ -21,7 +18,6 @@ export function ThemeProvider({ children }) {
     const changedTheme = e.target.checked ? 'dark-mode' : 'light';
     setTheme(changedTheme);
     localStorage.theme = changedTheme;
-    toast.success(t("theme-changed"));
   }
 
   return (

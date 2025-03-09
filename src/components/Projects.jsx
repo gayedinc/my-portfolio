@@ -32,24 +32,22 @@ export default function Projects() {
               <h3>{project.title}</h3>
               <p>{t(project.descriptionKey)}</p>
               <div className="link-area">
-                <ul>
-                  <li>
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                      GITHUB
-                      <div className="arrow-icon">
-                        <ArrowSvg />
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                      {t("link")}
-                      <div className="arrow-icon">
-                        <ArrowSvg />
-                      </div>
-                    </a>
-                  </li>
-                </ul>
+                <div className="github-link">
+                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    GITHUB
+                    <div className="arrow-icon">
+                      <ArrowSvg />
+                    </div>
+                  </a>
+                </div>
+                <div className="live-link">
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                    {t("link")}
+                    <div className="arrow-icon">
+                      <ArrowSvg />
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </li>

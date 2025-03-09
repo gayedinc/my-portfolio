@@ -320,13 +320,11 @@ body {
 
 .link-area {
   padding-top: 20px;
-  
-  ul {
-    display: flex;
-    gap: 20px;
-  }
+  display: flex;
+  gap: 20px;
 
-  li {
+
+  a {
     border: 1.5px solid #141414;
     padding: 15px 7px;
     border-radius: 50px;
@@ -337,9 +335,6 @@ body {
     letter-spacing: 0px;
     position: relative;
     transition: transform 0.3s ease-in-out;
-  }
-
-  a {
     color: #121212;
     display: flex;
     justify-content: center;
@@ -347,7 +342,7 @@ body {
     gap: 10px;
   }
 
-  li:hover {
+  a:hover {
     background-color: #f7c6ec;
     transform: translateY(-5px);
   }
