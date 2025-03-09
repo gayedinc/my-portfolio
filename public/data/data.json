@@ -71,7 +71,7 @@
       "githubLink": "https://github.com/gayedinc/memory-game-react"
     },
     {
-      "title": "Product List with Card - React",
+      "title": "Product List with Card",
       "descriptionKey": "product_list_with_card_text",
       "image": "/img/dessert-photo.jpg",
       "liveLink": "https://product-list-with-card-react.vercel.app",
@@ -85,7 +85,7 @@
       "githubLink": "https://github.com/gayedinc/comments-section"
     },
     {
-      "title": "Landing Page - HTML & CSS (Git Collaboration)",
+      "title": "Landing Page",
       "descriptionKey": "landing_page_text",
       "image": "/img/landing-page.jpg",
       "liveLink": "https://ortak-git-calismasi.vercel.app/index.html",
