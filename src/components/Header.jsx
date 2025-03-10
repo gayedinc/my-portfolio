@@ -61,7 +61,7 @@ export default function Header() {
         </div>
       </div>
       <nav className="nav-desktop">
-        <h1>Gaye Dinç</h1>
+        <h1 onClick={() => (window.location.href = "/")} style={{ cursor: "pointer" }}>Gaye Dinç</h1>
         <div className="nav-adres">
           <ul>
             {getRoutes().map((route) => (
