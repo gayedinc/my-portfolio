@@ -562,7 +562,7 @@ body {
   display: flex;
   gap: 50px;
   padding-block: 40px;
-  animation: scroll 20s linear infinite;
+  animation: scroll 8s linear infinite;
 }
 
 @keyframes scroll {
@@ -780,6 +780,10 @@ body {
 /* Tablet Start */
 
 @media (width >= 768px) {
+  
+  .slider-track {
+    animation: scroll 20s linear infinite;
+  }
 
   body {
     padding-top: 132px;
