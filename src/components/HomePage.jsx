@@ -42,15 +42,18 @@ export default function HomePage() {
             <StarSvg />
           </div>
         </div>
-        <div className="articles">
-          {articles.map((article, index) => (
-            <div className="articles-item" key={index}>
-              <a href={article.link} target="_blank" rel="noopener noreferrer">
-                <img src={article.image} alt={`${article.title} Photo`} />
-              </a>
-              <h3>{article.title}</h3>
-            </div>
-          ))}
+
+        <div className="slider-container">
+          <div className="slider-track">
+            {[...articles, ...articles].map((article, index) => (
+              <div className="articles-item" key={index}>
+                <a href={article.link} target="_blank" rel="noopener noreferrer">
+                  <img src={article.image} alt={`${article.title} Photo`} />
+                </a>
+                <h3>{article.title}</h3>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <Contact />

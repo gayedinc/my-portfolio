@@ -6,6 +6,10 @@ body.dark-mode {
   color: #fff;
 }
 
+body.dark-mode .nav-desktop {
+  background-color: rgba(20, 20, 20, 0.712);
+}
+
 .dark-mode .nav-desktop h1 {
   color: #fff;
 }

@@ -552,6 +552,28 @@ body {
   opacity: 1;
 }
 
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  gap: 50px;
+  padding-block: 40px;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .myarticlespage {
   padding: 24px;
   font-family: Outfit;
@@ -774,7 +796,10 @@ body {
     align-items: center;
     padding-block: 30px;
     border-bottom: 1.5px solid #141414;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.896);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
   }
   
   .hamburger-menu-overlay {
