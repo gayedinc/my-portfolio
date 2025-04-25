@@ -22,25 +22,18 @@
       "githubLink": "https://github.com/gayedinc/entertainment-web-app"
     },
     {
-      "title": "Blog Page",
-      "descriptionKey": "blog_page_text",
-      "image": "/img/blog-page-photo.jpg",
-      "liveLink": "https://blog-page-react-two.vercel.app",
-      "githubLink": "https://github.com/gayedinc/blog-page-react"
+      "title": "Product List with Card",
+      "descriptionKey": "product_list_with_card_text",
+      "image": "/img/dessert-photo.jpg",
+      "liveLink": "https://product-list-with-card-react.vercel.app",
+      "githubLink": "https://github.com/gayedinc/product-list-with-card-react"
     },
     {
-      "title": "Rest Countries with API",
-      "descriptionKey": "rest_countries_text",
-      "image": "/img/rest-countires-photo.jpg",
-      "liveLink": "https://rest-countries-api-taupe-rho.vercel.app",
-      "githubLink": "https://github.com/gayedinc/rest-countries-api"
-    },
-    {
-      "title": "DevJobs Web App",
-      "descriptionKey": "dev_jobs_text",
-      "image": "/img/devjobs-photo.jpg",
-      "liveLink": "https://devjobs-web-app-omega.vercel.app",
-      "githubLink": "https://github.com/gayedinc/devjobs-web-app"
+      "title": "Frontend Quiz App",
+      "descriptionKey": "frontend_quiz_text",
+      "image": "/img/quiz-photo.jpg",
+      "liveLink": "https://frontend-quiz-app-react.vercel.app",
+      "githubLink": "https://github.com/gayedinc/frontend-quiz-app-react"
     },
     {
       "title": "Dictionary App",
@@ -57,13 +50,6 @@
       "githubLink": "https://github.com/gayedinc/markdown-editor-react"
     },
     {
-      "title": "Frontend Quiz App",
-      "descriptionKey": "frontend_quiz_text",
-      "image": "/img/quiz-photo.jpg",
-      "liveLink": "https://frontend-quiz-app-react.vercel.app",
-      "githubLink": "https://github.com/gayedinc/frontend-quiz-app-react"
-    },
-    {
       "title": "Memory Game",
       "descriptionKey": "memory_game_text",
       "image": "/img/memory-game-photo.jpg",
@@ -71,11 +57,18 @@
       "githubLink": "https://github.com/gayedinc/memory-game-react"
     },
     {
-      "title": "Product List with Card",
-      "descriptionKey": "product_list_with_card_text",
-      "image": "/img/dessert-photo.jpg",
-      "liveLink": "https://product-list-with-card-react.vercel.app",
-      "githubLink": "https://github.com/gayedinc/product-list-with-card-react"
+      "title": "Blog Page",
+      "descriptionKey": "blog_page_text",
+      "image": "/img/blog-page-photo.jpg",
+      "liveLink": "https://blog-page-react-two.vercel.app",
+      "githubLink": "https://github.com/gayedinc/blog-page-react"
+    },
+    {
+      "title": "Rest Countries with API",
+      "descriptionKey": "rest_countries_text",
+      "image": "/img/rest-countires-photo.jpg",
+      "liveLink": "https://rest-countries-api-taupe-rho.vercel.app",
+      "githubLink": "https://github.com/gayedinc/rest-countries-api"
     },
     {
       "title": "Post List",
@@ -83,6 +76,13 @@
       "image": "/img/post-list-photo.jpg",
       "liveLink": "https://comments-section-pi.vercel.app",
       "githubLink": "https://github.com/gayedinc/comments-section"
+    },
+    {
+      "title": "DevJobs Web App",
+      "descriptionKey": "dev_jobs_text",
+      "image": "/img/devjobs-photo.jpg",
+      "liveLink": "https://devjobs-web-app-omega.vercel.app",
+      "githubLink": "https://github.com/gayedinc/devjobs-web-app"
     },
     {
       "title": "Landing Page",
@@ -93,6 +93,11 @@
     }
   ],
   "articles": [
+    {
+      "title": "Git ve GitHub ile Projeleri Yönetmenin İncelikleri: Bireysel ve Grup Projeleri İçin Detaylı Rehber",
+      "image": "/img/img-git-github-medium-photo.png",
+      "link": "https://medium.com/@gayedinc190/20783d107ae8"
+    },
     {
       "title": "EventTarget: dispatchEvent() Yöntemi",
       "image": "/img/eventtarget-photo.png",

@@ -571,7 +571,7 @@ body {
   gap: 50px;
   padding-block: 40px;
   width: max-content;
-  animation: scroll 90s linear infinite;
+  animation: scroll 110s linear infinite;
 }
 
 @keyframes scroll {
