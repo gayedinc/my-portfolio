@@ -280,10 +280,6 @@ body {
   border-bottom: none;
 }
 
-.dropdown-item:hover {
-  color: #ff6a88;
-}
-
 .projectlist {
   display: grid;
   grid-template-columns: 1fr;
@@ -342,11 +338,6 @@ body {
     gap: 10px;
   }
 
-  a:hover {
-    background-color: #f7c6ec;
-    transform: translateY(-5px);
-  }
-
   .arrow-icon {
     width: 20px;
     height: 20px;
@@ -374,14 +365,6 @@ body {
     object-fit: cover;
     cursor: pointer;
     border-radius: 8px;
-  }
-
-  &:hover {
-    background: url("/img/eye.png") center center no-repeat;
-    background-size: 50px 50px;
-    img {
-      opacity: 0.6;
-    }
   }
 }
 
@@ -468,26 +451,6 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-.about-item:hover {
-  transform: scale(1.03);
-}
-
-.bg-career:hover {
-  background-color: #fde9c8;
-}
-
-.bg-projects:hover {
-  background-color: #fc92a6;
-}
-
-.bg-learning:hover {
-  background-color: #f7c6ec;
-}
-
-.bg-future:hover {
-  background-color: #c5f2f0;
-}
-
 .articles {
   display: flex;
   gap: 50px;
@@ -532,32 +495,6 @@ body {
 .articles-item a, .articles-item-link a {
   display: block;
   position: relative;
-}
-
-.articles-item a:hover img,
-.articles-item-link a:hover img {
-  opacity: 0.2;
-  filter: brightness(50%);
-}
-
-.articles-item a::after,
-.articles-item-link a::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  background: url("/img/eye.png") center center no-repeat;
-  background-size: contain;
-  transform: translate(-50%, -50%);
-  opacity: 0; 
-  transition: opacity 0.3s ease-in-out;
-}
-
-.articles-item a:hover::after,
-.articles-item-link a:hover::after {
-  opacity: 1;
 }
 
 .slider-container {
@@ -614,10 +551,6 @@ body {
       height: 47px;
     }
   }
-  
-  .arrow-icon:hover {
-    background: radial-gradient(50% 50% at 50% 50%, #a57ef8 1.97%, #eaeff5 98.43%);
-  }
 }
 
 .articles-page {
@@ -645,10 +578,7 @@ body {
   background-color: #fff;
 }
 
-.project-item:hover, .articles-item:hover {
-  transform: scale(1.05);
-  transition: all 0.3s ease-in-out;
-}
+
 
 .contact-page {
   background: url('/img/background-portfolio.png');
@@ -686,10 +616,6 @@ body {
     grid-column: 1 / span 2;
     grid-row: 1;
   }
-
-  button:hover {
-    color: #FFDD2D;
-  }
 }
 
 .footer {
@@ -704,11 +630,6 @@ body {
   cursor: pointer;
   grid-column: 1 / 2;
   grid-row: 2;
-}
-
-.cv:hover {
-  transform: scale(1.3);
-  transition: all 0.3s ease-in-out;
 }
 
 .profiles {
@@ -730,10 +651,6 @@ body {
 
   li {
     transition: transform 0.3s ease-in-out;
-  }
-  
-  li:hover {
-    transform: scale(1.2);
   }
 }
 
@@ -1059,6 +976,91 @@ body {
   
   .switch:checked:after {
     transform: translateX(180%);
+  }
+
+  .dropdown-item:hover {
+    color: #ff6a88;
+  }
+
+  .project-img:hover {
+    background: url("/img/eye.png") center center no-repeat;
+    background-size: 50px 50px;
+    img {
+      opacity: 0.6;
+    }
+  }
+
+  .about-item:hover {
+    transform: scale(1.03);
+  }
+  
+  .bg-career:hover {
+    background-color: #fde9c8;
+  }
+  
+  .bg-projects:hover {
+    background-color: #fc92a6;
+  }
+  
+  .bg-learning:hover {
+    background-color: #f7c6ec;
+  }
+  
+  .bg-future:hover {
+    background-color: #c5f2f0;
+  }
+
+  .link-area a:hover {
+    background-color: #f7c6ec;
+    transform: translateY(-5px);
+  }
+
+  .articles-item a:hover img,
+.articles-item-link a:hover img {
+  opacity: 0.2;
+  filter: brightness(50%);
+}
+
+.articles-item a::after,
+.articles-item-link a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: url("/img/eye.png") center center no-repeat;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out;
+  }
+
+  .articles-item a:hover::after,
+  .articles-item-link a:hover::after {
+    opacity: 1;
+  }
+
+  .myarticlespage .arrow-icon:hover {
+    background: radial-gradient(50% 50% at 50% 50%, #a57ef8 1.97%, #eaeff5 98.43%);
+  }
+
+  .project-item:hover, .articles-item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact-content button:hover {
+    color: #FFDD2D;
+  }
+
+  .cv:hover {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .profiles li:hover {
+    transform: scale(1.2);
   }
 }
 
