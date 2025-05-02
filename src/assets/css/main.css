@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+::selection {
+  background-color: #ff7992; /* Metin seçildiğinde arka plan rengi */
+  color: #ffffff; /* Metin seçildiğinde metnin rengi*/
+}
+
 /* Başlıklar için fade-in animasyonu */
 @keyframes fadeInUp {
   from {
