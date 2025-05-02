@@ -470,6 +470,7 @@ body {
   width: 350px;
   scroll-snap-align: center;
   position: relative;
+  transition: transform 0.3s ease;
 
   img {
     width: 100%;
@@ -509,6 +510,10 @@ body {
   padding-block: 40px;
   width: max-content;
   animation: scroll 110s linear infinite;
+}
+
+.slider-track.paused {
+  animation-play-state: paused;
 }
 
 @keyframes scroll {
