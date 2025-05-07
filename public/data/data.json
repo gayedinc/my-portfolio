@@ -94,6 +94,11 @@
   ],
   "articles": [
     {
+      "title": "Next.js: Modern Web Uygulamalarına Güç Veren Framework",
+      "image": "/img/nextjs1-medium-photo.png",
+      "link": "https://medium.com/@gayedinc190/next-js-modern-web-uygulamalarına-güç-veren-framework-be02579650e4"
+    },
+    {
       "title": "Git ve GitHub ile Projeleri Yönetmenin İncelikleri: Bireysel ve Grup Projeleri İçin Detaylı Rehber",
       "image": "/img/img-git-github-medium-photo.png",
       "link": "https://medium.com/@gayedinc190/20783d107ae8"
