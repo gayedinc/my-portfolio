@@ -94,6 +94,11 @@
   ],
   "articles": [
     {
+      "title": "Adım Adım Next.js Projesi Nasıl Oluşturulur?",
+      "image": "/img/nextjs-2-medium-photo.png",
+      "link": "https://medium.com/@gayedinc190/adım-adım-next-js-projesi-nasıl-oluşturulur-4c80f2720acf"
+    },
+    {
       "title": "Next.js: Modern Web Uygulamalarına Güç Veren Framework",
       "image": "/img/nextjs1-medium-photo.png",
       "link": "https://medium.com/@gayedinc190/next-js-modern-web-uygulamalarına-güç-veren-framework-be02579650e4"
